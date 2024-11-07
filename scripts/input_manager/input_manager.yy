@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"input_manager",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"input_manager",
+  "parent":{
+    "name":"gamemaker-scario-scaffolding",
+    "path":"gamemaker-scario-scaffolding.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
