@@ -1,0 +1,11 @@
+{
+  "startMenu": {
+    "start": "Play",
+    "continue": "Load",
+    "options": "Options",
+    "exit": "Exit"
+  },
+  "HUD": {
+    "x-input": "X input value"
+  } 
+}

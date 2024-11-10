@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"input_manager",
+  "%Name":"scr_i18n",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"input_manager",
+  "name":"scr_i18n",
   "parent":{
-    "name":"inputs",
-    "path":"folders/components/inputs.yy",
+    "name":"i18n",
+    "path":"folders/components/i18n.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

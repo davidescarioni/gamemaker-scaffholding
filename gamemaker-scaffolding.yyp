@@ -1,0 +1,163 @@
+{
+  "$GMProject": "",
+  "%Name": "gamemaker-scaffolding",
+  "AudioGroups": [
+    {
+      "$GMAudioGroup": "",
+      "%Name": "audiogroup_default",
+      "name": "audiogroup_default",
+      "resourceType": "GMAudioGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    }
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default"
+  },
+  "defaultScriptType": 1,
+  "Folders": [
+    {
+      "$GMFolder": "",
+      "%Name": "components",
+      "folderPath": "folders/components.yy",
+      "name": "components",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "inputs",
+      "folderPath": "folders/components/inputs.yy",
+      "name": "inputs",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "i18n",
+      "folderPath": "folders/components/i18n.yy",
+      "name": "i18n",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "rooms",
+      "folderPath": "folders/rooms.yy",
+      "name": "rooms",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    }
+  ],
+  "IncludedFiles": [
+    {
+      "$GMIncludedFile": "",
+      "%Name": "lang_en.json",
+      "CopyToMask": -1,
+      "filePath": "datafiles",
+      "name": "lang_en.json",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "lang_en.json",
+      "CopyToMask": -1,
+      "filePath": "datafiles",
+      "name": "lang_en.json",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "lang_it.json",
+      "CopyToMask": -1,
+      "filePath": "datafiles",
+      "name": "lang_it.json",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "lang_it.json",
+      "CopyToMask": -1,
+      "filePath": "datafiles",
+      "name": "lang_it.json",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0"
+    }
+  ],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2024.8.1.171"
+  },
+  "name": "gamemaker-scaffolding",
+  "resources": [
+    {
+      "id": {
+        "name": "i18n_credits",
+        "path": "notes/i18n_credits/i18n_credits.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "input_credits",
+        "path": "notes/input_credits/input_credits.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_i18n_example",
+        "path": "objects/obj_i18n_example/obj_i18n_example.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_i18n_manager",
+        "path": "objects/obj_i18n_manager/obj_i18n_manager.yy"
+      }
+    },
+    { "id": { "name": "obj_init", "path": "objects/obj_init/obj_init.yy" } },
+    {
+      "id": {
+        "name": "obj_input_manager",
+        "path": "objects/obj_input_manager/obj_input_manager.yy"
+      }
+    },
+    { "id": { "name": "rm_game", "path": "rooms/rm_game/rm_game.yy" } },
+    {
+      "id": {
+        "name": "input_manager",
+        "path": "scripts/input_manager/input_manager.yy"
+      }
+    },
+    { "id": { "name": "scr_i18n", "path": "scripts/scr_i18n/scr_i18n.yy" } }
+  ],
+  "resourceType": "GMProject",
+  "resourceVersion": "2.0",
+  "RoomOrderNodes": [
+    { "roomId": { "name": "rm_game", "path": "rooms/rm_game/rm_game.yy" } }
+  ],
+  "templateType": "game",
+  "TextureGroups": [
+    {
+      "$GMTextureGroup": "",
+      "%Name": "Default",
+      "autocrop": true,
+      "border": 2,
+      "compressFormat": "bz2",
+      "customOptions": "",
+      "directory": "",
+      "groupParent": null,
+      "isScaled": true,
+      "loadType": "default",
+      "mipsToGenerate": 0,
+      "name": "Default",
+      "resourceType": "GMTextureGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    }
+  ]
+}

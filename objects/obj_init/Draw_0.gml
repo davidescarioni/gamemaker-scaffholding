@@ -1,5 +1,5 @@
-// Test implementation
+// Test implementations
 var _axis = input_axis(ACTION.MOVE)
 x += _axis * 10;
 
-draw_text(20, 20, x)
+draw_text(20, 20, $"{get_dictionary_value("HUD.x-input")}: {x}");

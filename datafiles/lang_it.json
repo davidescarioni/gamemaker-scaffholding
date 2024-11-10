@@ -1,0 +1,11 @@
+{
+  "startMenu": {
+    "start": "Nuova partita",
+    "continue": "Carica",
+    "options": "Opzioni",
+    "exit": "Esci"
+  },
+  "HUD": {
+    "x-input": "Valore X input"
+  }
+}
