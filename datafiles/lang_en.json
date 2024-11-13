@@ -2,10 +2,15 @@
   "startMenu": {
     "start": "Play",
     "continue": "Load",
-    "options": "Options",
-    "exit": "Exit"
+    "settings": "Options",
+    "exit": "Exit",
+    "fullscreen": "Fullscreen",
+    "language": "Language",
+    "music-volume": "Music volume",
+    "sfx-volume": "SFX volume",
+    "back": "Back"
   },
   "HUD": {
     "x-input": "X input value"
-  } 
+  }
 }

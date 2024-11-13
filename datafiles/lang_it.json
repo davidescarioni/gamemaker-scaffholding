@@ -2,8 +2,13 @@
   "startMenu": {
     "start": "Nuova partita",
     "continue": "Carica",
-    "options": "Opzioni",
-    "exit": "Esci"
+    "settings": "Opzioni",
+    "exit": "Esci",
+    "fullscreen": "Fullscreen",
+    "language": "Lingua",
+    "music-volume": "Volume musica",
+    "sfx-volume": "Volume effetti sonori",
+    "back": "Indietro"
   },
   "HUD": {
     "x-input": "Valore X input"

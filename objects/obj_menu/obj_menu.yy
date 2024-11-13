@@ -1,15 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_i18n_example",
+  "%Name":"obj_menu",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_i18n_example",
+  "name":"obj_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"i18n",
-    "path":"folders/components/i18n.yy",
+    "name":"menu",
+    "path":"folders/menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_menu_background",
+    "path":"sprites/spr_menu_background/spr_menu_background.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
