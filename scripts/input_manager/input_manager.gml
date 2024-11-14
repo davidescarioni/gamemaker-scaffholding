@@ -59,13 +59,13 @@ function input_update() {
 function input_check_pressed(_id) {
     var _pressed = false;
     var _binding = global.input_manager_bindings[$ _id];
-    if (!is_undefined(binding)) {
-        var _keyboard = binding[$ "keyboard"];
-        var _gamepad = binding[$ "gamepad"];
-        var _gamepad_id = binding[$ "gamepad_id"];
+    if (!is_undefined(_binding)) {
+        var _keyboard = _binding[$ "keyboard"];
+        var _gamepad = _binding[$ "gamepad"];
+        var _gamepad_id = _binding[$ "gamepad_id"];
         if (is_undefined(_gamepad_id))
             _gamepad_id = 0;
-        var _mouse = binding[$ "mouse"];
+        var _mouse = _binding[$ "mouse"];
         if (!is_undefined(_keyboard)) {
             for (var _i = 0; _i < array_length(_keyboard); _i++) {
                 _pressed |= keyboard_check_pressed(_keyboard[_i]);
@@ -96,9 +96,9 @@ function input_check(_id) {
     var _held = false;
     var _binding = global.input_manager_bindings[$ _id];
     if (!is_undefined(_binding)) {
-        var _keyboard = binding[$ "keyboard"];
-        var _gamepad = binding[$ "gamepad"];
-        var _gamepad_id = binding[$ "gamepad_id"];
+        var _keyboard = _binding[$ "keyboard"];
+        var _gamepad = _binding[$ "gamepad"];
+        var _gamepad_id = _binding[$ "gamepad_id"];
         if (is_undefined(_gamepad_id))
             _gamepad_id = 0;
         var _mouse = _binding[$ "mouse"];
@@ -128,6 +128,7 @@ function input_check(_id) {
  * @description Check if an input was released.
  * @param {string} _id The id of the input to check
  */
+ 
 function input_check_released(_id) {
     var _released = false;
     var _binding = global.input_manager_bindings[$ _id];
@@ -152,7 +153,7 @@ function input_check_released(_id) {
 
         if (!is_undefined(_mouse)) {
             for (var _i = 0; _i < array_length(_mouse); _i++) {
-                _released |= mouse_check_button_released(mouse[i]);
+                _released |= mouse_check_button_released(_mouse[_i]);
             }
         }
     }

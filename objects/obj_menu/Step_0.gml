@@ -1,23 +1,19 @@
-var _key_up = keyboard_check_pressed(vk_up);
-var _key_down = keyboard_check_pressed(vk_down);
-var _key_enter = keyboard_check_pressed(ord("Z"));
-
 // Store number of options in current menu
 options_length = array_length(options[menu_level])
 
-if (_key_up) {
+if (input_check_released(ACTION.UP)) {
 	pos-=1;
-	audio_play_sound(snd_menu_move, 1, false)
+	if (pos >= 0) audio_play_sound(snd_menu_move, 1, false)
 }
 
-if (_key_down) {
+if (input_check_released(ACTION.DOWN)) {
 	pos+=1;
-	audio_play_sound(snd_menu_move, 1, false)
+	if (pos <= options_length - 1) audio_play_sound(snd_menu_move, 1, false)
 }
 
 pos = clamp(pos, 0, options_length-1)
 
-if (_key_enter) {
+if (input_check_pressed(ACTION.CONFIRM)) {
 	
 	var _start_menu_level = menu_level
 	

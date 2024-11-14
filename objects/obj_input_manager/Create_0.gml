@@ -1,11 +1,29 @@
 //CREATE EVENT obj_controller
 enum ACTION {
+	UP,
+	DOWN,
     JUMP,
     SHOOT,
-    MOVE
+    MOVE_HORIZONTAL,
+	MOVE_VERTICAL,
+	CONFIRM
 }
 
 bindings = [
+	{
+        "id": ACTION.UP,
+        "keyboard": [
+			vk_up, 
+             ord("W")
+        ]
+    },
+	{
+        "id": ACTION.DOWN,
+        "keyboard": [
+			vk_down, 
+             ord("S")
+        ]
+    },
     {
         "id": ACTION.JUMP,
         "keyboard": [
@@ -22,17 +40,28 @@ bindings = [
         "mouse": [
             mb_left
         ],
+		"keyboard": [
+            vk_space,
+            vk_up,
+        ],
         "gamepad": [
             gp_shoulderr,
             gp_shoulderrb,
         ],
         "gamepad_id": 0,
     },
+	{
+        "id": ACTION.CONFIRM,
+		"keyboard": [
+            ord("Z"),
+			vk_enter
+        ]
+    },
 ];
 
 axes = [
     {
-        "id": ACTION.MOVE,
+        "id": ACTION.MOVE_HORIZONTAL,
         "keyboard": {
             "negative": [
                 vk_left, 
