@@ -8,4 +8,7 @@ instance_create_layer(0, 0, "Controllers", obj_i18n_manager);
 // Init input manager
 instance_create_layer(0, 0, "Controllers", obj_input_manager);
 
+// Init audio manager
+instance_create_layer(0, 0, "Controllers", obj_audio_manager);
+
 room_goto(rm_menu)

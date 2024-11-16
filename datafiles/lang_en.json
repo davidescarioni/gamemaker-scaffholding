@@ -6,8 +6,8 @@
     "exit": "Exit",
     "fullscreen": "Fullscreen",
     "language": "Language",
-    "music-volume": "Music volume",
-    "sfx-volume": "SFX volume",
+    "music-volume": "Music volume: {0}",
+    "sfx-volume": "SFX volume: {0}",
     "back": "Back"
   },
   "HUD": {

@@ -3,6 +3,8 @@
   "%Name":"gamemaker-scaffolding",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"","%Name":"ag_music","name":"ag_music","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"","%Name":"ag_sfx","name":"ag_sfx","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -30,6 +32,7 @@
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"i18n_credits","path":"notes/i18n_credits/i18n_credits.yy",},},
     {"id":{"name":"input_credits","path":"notes/input_credits/input_credits.yy",},},
+    {"id":{"name":"obj_audio_manager","path":"objects/obj_audio_manager/obj_audio_manager.yy",},},
     {"id":{"name":"obj_i18n_manager","path":"objects/obj_i18n_manager/obj_i18n_manager.yy",},},
     {"id":{"name":"obj_init","path":"objects/obj_init/obj_init.yy",},},
     {"id":{"name":"obj_input_manager","path":"objects/obj_input_manager/obj_input_manager.yy",},},

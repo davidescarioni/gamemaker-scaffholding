@@ -6,8 +6,8 @@
     "exit": "Esci",
     "fullscreen": "Fullscreen",
     "language": "Lingua",
-    "music-volume": "Volume musica",
-    "sfx-volume": "Volume effetti sonori",
+    "music-volume": "Volume musica: {0}",
+    "sfx-volume": "Volume effetti sonori: {0}",
     "back": "Indietro"
   },
   "HUD": {
