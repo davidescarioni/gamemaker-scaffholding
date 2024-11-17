@@ -12,8 +12,8 @@
   "duration":1.332245,
   "name":"snd_menu_back",
   "parent":{
-    "name":"menu",
-    "path":"folders/menu.yy",
+    "name":"sounds",
+    "path":"folders/sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -17,8 +17,8 @@
   ],
   "name":"rm_menu",
   "parent":{
-    "name":"menu",
-    "path":"folders/menu.yy",
+    "name":"rooms",
+    "path":"folders/rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

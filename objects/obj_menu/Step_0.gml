@@ -14,7 +14,6 @@ if (input_check_released(ACTION.DOWN)) {
 pos = clamp(pos, 0, options_length-1)
 
 
-
 if (input_check_pressed(ACTION.CONFIRM)) {
 	
 	var _start_menu_level = menu_level
@@ -50,21 +49,12 @@ if (input_check_pressed(ACTION.CONFIRM)) {
 					set_menus();
 					break;
 				case 2:
-					// TODO: o spostare la funzione in obj_audio_manager o rendere le variabili globali
-					var _music_volume = audio_group_get_gain(ag_music)
-					if (_music_volume == 0) _music_volume = string("0.00")
-					var _new_music_volume = real(_music_volume) + .1;
-					if _new_music_volume > 1 _new_music_volume = 0;
-					audio_group_set_gain(ag_music, _new_music_volume, 0);
+					with (obj_audio_manager) set_music_volume(+.1)
 					audio_play_sound(snd_menu_ok, 1, false)
 					set_settings_menu()
 					break;
 				case 3:
-					var _sfx_volume = audio_group_get_gain(ag_sfx);
-					if (_sfx_volume == 0) _sfx_volume = string("0.00")
-					var _new_volume = real(_sfx_volume) + .1;
-					if _new_volume > 1 _new_volume = 0;
-					audio_group_set_gain(ag_sfx, _new_volume, 0);
+					with (obj_audio_manager) set_sfx_volume(+.1)
 					audio_play_sound(snd_menu_ok, 1, false)
 					set_settings_menu()
 					break;

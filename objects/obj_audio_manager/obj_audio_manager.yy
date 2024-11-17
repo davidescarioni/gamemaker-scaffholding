@@ -8,8 +8,8 @@
   "name":"obj_audio_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"components",
-    "path":"folders/components.yy",
+    "name":"audio",
+    "path":"folders/components/audio.yy",
   },
   "parentObjectId":null,
   "persistent":true,

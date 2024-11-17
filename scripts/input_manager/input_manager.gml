@@ -120,7 +120,7 @@ function input_check(_id) {
             }
         }
     }
-    return held;
+    return _held;
 }
 
 /**

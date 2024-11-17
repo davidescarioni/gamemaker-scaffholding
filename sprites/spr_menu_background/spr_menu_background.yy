@@ -45,7 +45,7 @@
   "origin":0,
   "parent":{
     "name":"menu",
-    "path":"folders/menu.yy",
+    "path":"folders/components/menu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
